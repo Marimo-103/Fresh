@@ -6,9 +6,9 @@ import Footer from './Components/Footer'
 const RootLayOut = () => {
 
     const location = useLocation();
-    const hideFooterPaths = ['index']
+    const hideFooterPaths = ['index', '/sign/up', '/log/in']
 
-    const hideNavbarPaths = ['/products']
+    const hideNavbarPaths = ['/products', '/sign/up', '/log/in']
 
   return (
     <div>
